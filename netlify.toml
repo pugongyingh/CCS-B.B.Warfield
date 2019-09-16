@@ -1,4 +1,4 @@
 [build]
-  functions = "lambda/build/"
+  functions = "lambda/"
   command = "gatsby build && netlify-lambda build lambda"
   publish = "public/"
